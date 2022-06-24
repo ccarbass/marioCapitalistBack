@@ -28,7 +28,7 @@ module.exports = gql`
     quantite: Int
     timeleft: Int
     managerUnlocked: Boolean
-    paliers: [Palier]
+    palliers: [Palier]
   }
 
   type World {

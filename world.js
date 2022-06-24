@@ -1,11 +1,11 @@
 module.exports = {
   name: 'Mario world',
   logo: 'asset/logo.png',
-  money: 0,
+  money: 4,
   score: 0,
   totalangels: 0,
   activeangels: 0,
-  angelbonus: 2,
+  angelbonus: 0,
   lastupdate: 0,
   products: [
     {
@@ -16,7 +16,7 @@ module.exports = {
       croissance: 1.07,
       revenu: 1,
       vitesse: 500,
-      quantite: 1,
+      quantite: 0,
       timeleft: 0,
       managerUnlocked: false,
       palliers: [
@@ -42,18 +42,18 @@ module.exports = {
     },
     {
       id: 2,
-      name: 'Luidgi pixel',
+      name: 'Luigi pixel',
       logo: 'asset/product/luidgi1.gif',
       cout: 60,
       croissance: 1.15,
       revenu: 60,
       vitesse: 3000,
-      quantite: 1,
+      quantite: 0,
       timeleft: 0,
       managerUnlocked: false,
       palliers: [
         {
-          name: 'Luidgi évolution',
+          name: 'Luigi évolution',
           logo: 'asset/product/luidgi2.gif',
           seuil: 20,
           idcible: 1,
@@ -62,7 +62,7 @@ module.exports = {
           unlocked: false
         },
         {
-          name: 'Luidgi boss',
+          name: 'Luigi boss',
           logo: 'asset/product/luidgi3.gif',
           seuil: 75,
           idcible: 1,
@@ -80,7 +80,7 @@ module.exports = {
       croissance: 1.14,
       revenu: 540,
       vitesse: 6000,
-      quantite: 1,
+      quantite: 0,
       timeleft: 0,
       managerUnlocked: false,
       palliers: [
@@ -112,7 +112,7 @@ module.exports = {
       croissance: 1.13,
       revenu: 4320,
       vitesse: 12000,
-      quantite: 1,
+      quantite: 0,
       timeleft: 0,
       managerUnlocked: false,
       palliers: [
@@ -144,13 +144,13 @@ module.exports = {
       croissance: 1.12,
       revenu: 51840,
       vitesse: 24000,
-      quantite: 1,
+      quantite: 0,
       timeleft: 0,
       managerUnlocked: false,
       palliers: [
         {
           name: 'Yoshi évolution',
-          logo: 'asset/product/yoshi.gif',
+          logo: 'asset/product/yoshi2.gif',
           seuil: 20,
           idcible: 1,
           ratio: 2,
@@ -176,13 +176,13 @@ module.exports = {
       croissance: 1.11,
       revenu: 622080,
       vitesse: 96000,
-      quantite: 1,
+      quantite:0,
       timeleft: 0,
       managerUnlocked: false,
       palliers: [
         {
           name: 'Mario évolution',
-          logo: 'asset/product/mario.gif',
+          logo: 'asset/product/mario2.gif',
           seuil: 20,
           idcible: 1,
           ratio: 2,
@@ -238,7 +238,7 @@ module.exports = {
   managers: [
     {
       name: 'Dreamy Browser',
-      logo: 'asset/manager/Dreamy_Browser.webp',
+      logo: 'asset/manager/Dreamy_Bowser.webp',
       seuil: 10,
       idcible: 1,
       ratio: 0,
@@ -246,8 +246,8 @@ module.exports = {
       unlocked: false
     },
     {
-      name: 'Luidgi d\'argent',
-      logo: 'asset/manager/Luidgi_argent.webp',
+      name: 'Luigi d\'argent',
+      logo: 'asset/manager/Luigi_argent.webp',
       seuil: 10,
       idcible: 2,
       ratio: 0,
